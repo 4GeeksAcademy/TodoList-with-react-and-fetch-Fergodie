@@ -1,12 +1,28 @@
+#trash:hover {
+    color: #0dcaf0 !important;
+}
 
-/* 
+#master-trash:hover {
+    color: #9FA0A1 !important;
+}
 
-    You can write your own styles here...
+.paper {
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    box-shadow:
+      /* The top layer shadow */
+      0 1px 1px rgba(61, 61, 61, 0.15),
+      /* The second layer */
+      0 10px 0 -5px #eee,
+      /* The second layer shadow */
+      0 10px 1px -4px rgba(0,0,0,0.15),
+       /* The third layer */
+      0 20px 0 -10px #eee,
+      /* The third layer shadow */
+      0 20px 1px -9px rgba(0,0,0,0.15);
+      /* Padding for demo purposes */
+      padding: 30px;
+  }
 
-*/
+  input::placeholder {
+    font-size: xx-small;
+  }
